@@ -24,11 +24,11 @@ three_for_21_link = driver.find_element("xpath","/html/body/div[3]/div/header/di
 three_for_21_link.click()
 
 # Waiting for the page to load
-time.sleep(5)
+time.sleep(10)
 
 # # Selecting a product from the  results
 # # Product_link = driver.find_element_by_css_selector("span[data-component-type='s-product-image'] a")
-product_link = driver.find_element("xpath","/html/body/div[4]/main/div[6]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div[1]/a/img[2]")
+product_link = driver.find_element("xpath","/html/body/div[3]/main/div[6]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div[1]/a/img[2]")
 # # Product_link = driver.find_element("By.CSS_SELECTOR","span[data-component-type='s-product-image'] a")
 product_link.click()
 #
